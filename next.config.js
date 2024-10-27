@@ -8,7 +8,7 @@ const nextConfig = {
     },
     output: "export",
     reactStrictMode: true,
-    basePath: process.env.NODE_ENV === "production" ? "/blog-pembatik-2024" : undefined,
+    basePath: process.env.NODE_ENV === "production" ? "/blog-pembatik-2024" : "/",
     images: {
         unoptimized: true,
     },
