@@ -8,7 +8,7 @@ const BlogLayoutThree = ({ blog }) => {
     <div className="group flex flex-col items-center text-dark dark:text-light">
       <Link href={blog.url} className="h-full rounded-xl overflow-hidden">
         <Image
-          src={blog.image.filePath.replace("../public", "/blog-pembatik-2024")}
+          src={blog.image.filePath.replace("../public", "")}
           placeholder="blur"
           blurDataURL={blog.image.blurhashDataUrl}
           alt={blog.title}

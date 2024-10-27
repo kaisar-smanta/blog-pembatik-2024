@@ -13,7 +13,7 @@ const BlogLayoutOne = ({ blog }) => {
             "
       />
       <Image
-        src={blog.image.filePath.replace("../public", process.env.NODE_ENV === "production" ? "/blog-pembatik-2024" : "")}
+        src={blog.image.filePath.replace("../public", "")}
         placeholder="blur"
         blurDataURL={blog.image.blurhashDataUrl}
         alt={blog.title}
