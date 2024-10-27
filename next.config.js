@@ -6,7 +6,7 @@ const nextConfig = {
     },
     output: "export",
     reactStrictMode: true,
-    basePath: process.env.NODE_ENV === "production" ? process.env.NEXT_PUBLIC_URL : "/",
+    basePath: "/blog-pembatik-2024",
     images: {
         unoptimized: true,
     },
