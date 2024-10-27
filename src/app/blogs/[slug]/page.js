@@ -24,7 +24,7 @@ export async function generateMetadata({ params }) {
   if (blog.image) {
     imageList =
       typeof blog.image.filePath === "string"
-        ? [siteMetadata.siteUrl + blog.image.filePath.replace("../public", process.env.NODE_ENV === "production" ? "/blog-pembatik-2024" : "")]
+        ? [siteMetadata.siteUrl + blog.image.filePath.replace("../public", "/blog-pembatik-2024")]
         : blog.image;
   }
   const ogImages = imageList.map((img) => {
@@ -69,7 +69,7 @@ export default function BlogPage({ params }) {
   if (blog.image) {
     imageList =
       typeof blog.image.filePath === "string"
-        ? [siteMetadata.siteUrl + blog.image.filePath.replace("../public", process.env.NODE_ENV === "production" ? "/blog-pembatik-2024" : "")]
+        ? [siteMetadata.siteUrl + blog.image.filePath.replace("../public", "/blog-pembatik-2024")]
         : blog.image;
   }
 
@@ -110,7 +110,7 @@ export default function BlogPage({ params }) {
         </div>
         <div className="absolute top-0 left-0 right-0 bottom-0 h-full bg-dark/60 dark:bg-dark/40" />
         <Image
-          src={blog.image.filePath.replace("../public", process.env.NODE_ENV === "production" ? "/blog-pembatik-2024" : "")}
+          src={blog.image.filePath.replace("../public", "/blog-pembatik-2024")}
           placeholder="blur"
           blurDataURL={blog.image.blurhashDataUrl}
           alt={blog.title}
