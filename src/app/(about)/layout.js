@@ -2,13 +2,9 @@ import InsightRoll from "@/src/components/About/InsightRoll";
 
 
 const insights = [
-    "20+ Projects Completed",
-    "3+ Years of Freelancing",
-    "99% Client Satisfaction",
-    "20K+ Subscribers",
-    "Authored In-Depth Course on Educative",
-    "Contributed as a Technical Course Reviewer 📝",
-    "Recipient of the Hackernoon Noonies Award 🏆",
+    "Alumni Pendidikan Matematika Universitas Lambung Mangkurat (2018)",
+    "Guru Matematika SMKS Tabalong (2018-2022)",
+    "Guru Matematika SMAN 1 Tanjung (2022 - Sekarang)"
   ];
 
 export default function AboutLayout({ children }) {

@@ -8,7 +8,7 @@ const siteMetadata = {
     theme: 'system', // system, dark or light
     siteUrl: 'https://pembatik.titoniran.com/', // your website URL
     siteLogo: '/logo.png',
-    socialBanner: '/social-banner.png', // add social banner in the public folder
+    // socialBanner: '/social-banner.png', // add social banner in the public folder
     email: 'kaisar591@guru.sma.belajar.id', 
     github: 'https://github.com/kaisar-smanta',
     youtube: 'https://www.youtube.com/@kaisarbelajarid',

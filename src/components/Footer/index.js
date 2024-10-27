@@ -28,9 +28,8 @@ const Footer = () => {
           &copy;2024 Kaisar Titoniran Akbar.
         </span>
         <div className="text-center">
-          Made with &hearts; by{" "}
           <a href="https://pembatik.titoniran.com" className="underline" target="_blank">
-            Kaisar Titoniran Akbar
+            Blog Pembatik Tahun 2024
           </a>
         </div>
       </div>
