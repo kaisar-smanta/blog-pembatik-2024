@@ -1,15 +1,14 @@
-import { withContentlayer } from "next-contentlayer";
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
     compiler: {
         removeConsole: true,
     },
     output: "export",
     reactStrictMode: true,
-    basePath: process.env.NODE_ENV === "production" ? "/blog-pembatik-2024" : "/",
+    basePath: process.env.NODE_ENV === "production" ? "/blog-pembatik-2024" : "",
     images: {
         unoptimized: true,
     },
 };
 
-export default withContentlayer({ ...nextConfig });
+module.exports = nextConfig;
