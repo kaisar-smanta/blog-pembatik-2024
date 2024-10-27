@@ -16,7 +16,7 @@ const HomeCoverSection = ({blogs}) => {
             <div className='absolute top-0 left-0 bottom-0 right-0 h-full
             bg-gradient-to-b from-transparent from-0% to-dark/90 rounded-3xl z-0
             ' />
-        <Image src={blog.image.filePath.replace("../public", process.env.NODE_ENV === "production" ? "/blog-pembatik-2024" : "")}
+        <Image src={blog.image.filePath.replace("../public", "/blog-pembatik-2024")}
         placeholder='blur'
         blurDataURL={blog.image.blurhashDataUrl}
         alt={blog.title}
