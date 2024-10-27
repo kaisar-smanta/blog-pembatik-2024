@@ -6,7 +6,6 @@ const nextConfig = {
     },
     output: "export",
     reactStrictMode: true,
-    basePath: "/blog-pembatik-2024",
     images: {
         unoptimized: true,
     },
